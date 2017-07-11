@@ -14,6 +14,8 @@
 # EXTERNAL cache entries
 ########################
 
+:UNINITIALIZED=======
+
 //Path to a library.
 BLAS_Accelerate_LIBRARY:FILEPATH=BLAS_Accelerate_LIBRARY-NOTFOUND
 
@@ -276,10 +278,8 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Path to a program.
 CONVEX_DECOMPOSITION_CMD:FILEPATH=/opt/ros/kinetic/bin/convex_decomposition
 
-//Path to a program.
 DOXYGEN_EXECUTABLE:FILEPATH=/usr/bin/doxygen
 
 //Doxygen found
@@ -526,7 +526,7 @@ kdl_conversions_DIR:PATH=/opt/ros/kinetic/share/kdl_conversions/cmake
 //The directory containing a CMake configuration file for kdl_parser.
 kdl_parser_DIR:PATH=/opt/ros/kinetic/share/kdl_parser/cmake
 
-//Path to a library.
+//Where can the cpp_common library be found
 lib:FILEPATH=/opt/ros/kinetic/lib/libinteractive_markers.so
 
 //The directory containing a CMake configuration file for message_filters.

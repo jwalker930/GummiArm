@@ -2,4 +2,4 @@
 source_root_dir = "/home/joe/repos/GummiArm/orchestration/packages/src"
 whitelisted_packages = "".split(';') if "" != "" else []
 blacklisted_packages = "".split(';') if "" != "" else []
-underlay_workspaces = "/home/joe/repos/GummiArm/orchestration/packages/devel;/opt/ros/kinetic".split(';') if "/home/joe/repos/GummiArm/orchestration/packages/devel;/opt/ros/kinetic" != "" else []
+underlay_workspaces = "/home/joe/repos/working/GummiArm/orchestration/packages/devel;/home/joe/GummiArm/orchestration/packages/devel;/home/joe/repos/GummiArm/orchestration/packages/devel;/opt/ros/kinetic".split(';') if "/home/joe/repos/working/GummiArm/orchestration/packages/devel;/home/joe/GummiArm/orchestration/packages/devel;/home/joe/repos/GummiArm/orchestration/packages/devel;/opt/ros/kinetic" != "" else []

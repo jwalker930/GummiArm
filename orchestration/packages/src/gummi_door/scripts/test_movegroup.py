@@ -50,7 +50,6 @@ pose_target.position.x = 0.10
 pose_target.position.y = -0.10
 pose_target.position.z = 0.40
 
-
 group.set_pose_target(pose_target)
 
 plan1 = group.plan()

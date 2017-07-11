@@ -27,6 +27,7 @@ class door_handle_planning(object):
         moveit_commander.roscpp_initialize(sys.argv)
 
         #self.gummi = Gummi()
+
         self.x = 0
         self.y = 0
         self.z = 0
@@ -46,6 +47,7 @@ class door_handle_planning(object):
         self.z = data.point.z
         rospy.sleep(5)
         print(self.x)
+
 
     #def touchCallback(self, msg):
         #self.touch_data_palm = msg.data
@@ -120,3 +122,4 @@ if __name__ == '__main__':
         #try:
     ##print("running")
     door_handle_planning()
+

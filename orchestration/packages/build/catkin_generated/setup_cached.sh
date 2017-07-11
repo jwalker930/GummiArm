@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/joe/repos/GummiArm/orchestration/packages/build"
+export PWD="/home/joe/repos/working/GummiArm/orchestration/packages/build"

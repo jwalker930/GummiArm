@@ -54,3 +54,4 @@ class pulldoor:
 if __name__ == '__main__':
     rospy.init_node('open_door', anonymous=True)
     pulldoor()
+

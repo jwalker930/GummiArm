@@ -6,14 +6,12 @@
             namespace: dxl_manager
             serial_ports:
                 gummi_port_arm:
-                    <!-- Equivalent to /dev/ttyUSB1 can be find at /dev/serial/by-id -->
                     port_name: "/dev/ttyUSB1"
                     baud_rate: 1000000
                     min_motor_id: 10
                     max_motor_id: 30
                     update_rate: 60
                 gummi_port_body:
-                    <!-- Equivalent to /dev/ttyUSB0 can be find at /dev/serial/by-id -->
                     port_name: "/dev/ttyUSB0"
                     baud_rate: 1000000
                     min_motor_id: 1
